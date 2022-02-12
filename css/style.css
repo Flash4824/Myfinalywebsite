@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  user-select: none;
+}
+
+a {
+    text-decoration: none;
+    color: #E3B7A0;
+}
+
+a:hover {
+    color: #EDCDBB;
+}
+
+#nav {
+  background-color: #FFEDDB;
+  padding: 2rem;
+}
+
+#about {
+  background-color: #faf3ec;
+  height: 90.3vh;
+}
+
+.website-name {
+  font-size: 1.5rem;
+  font-weight: 900;
+  float: left;
+}
+
+.website-name a {
+  padding: 0 0 5rem 0;
+}
+
+.links {
+  float: right;
+}
+
+.links a {
+  padding: 0 1rem 0 1rem;
+}
+
+.links a:hover {
+  border-bottom: 1.5px solid #BF9270;
+}
+
+.about-text {
+  text-align: center;
+  padding-top: 15rem;
+  font-weight: 500;
+  opacity: 80%;
+  font-size: 2rem;
+  color: #E3B7A0;
+}
+
+#rate {
+  height: 100vh;
+  background-color: #ffeddade;
+}
+
+#rate .rate-header {
+  text-align: center;
+  padding: 2rem 0 0 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  opacity: 50%;
+}
+
+#rate table {
+  padding-top: 5rem;
+  margin: auto;
+}
+
+#rate table > th, td {
+  padding: 1.9rem 9rem 2rem 9rem;
+}
+
+.rating {
+  width: 180px;
+}
+
+.rating__star {
+  cursor: pointer;
+  color: #dabd18b2;
+}
+
+#sign-up {
+  background-color: #fad2b5;
+  padding: 3rem;
+}
+
+.btn {
+  background: #ffaa00;
+  background-image: -webkit-linear-gradient(top, #ffaa00, #ffbc75);
+  background-image: -moz-linear-gradient(top, #ffaa00, #ffbc75);
+  background-image: -ms-linear-gradient(top, #ffaa00, #ffbc75);
+  background-image: -o-linear-gradient(top, #ffaa00, #ffbc75);
+  background-image: linear-gradient(to bottom, #ffaa00, #ffbc75);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  border: none;
+  margin-left: 36rem;
+}
+
+.btn:hover {
+  background: #cc5f00;
+  background-image: -webkit-linear-gradient(top, #cc5f00, #ffcc00);
+  background-image: -moz-linear-gradient(top, #cc5f00, #ffcc00);
+  background-image: -ms-linear-gradient(top, #cc5f00, #ffcc00);
+  background-image: -o-linear-gradient(top, #cc5f00, #ffcc00);
+  background-image: linear-gradient(to bottom, #cc5f00, #ffcc00);
+  text-decoration: none;
+}
+
+.btn a {
+  color: #fff;
+}
